@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     list-style: none;
     text-decoration: none;
@@ -7,99 +9,198 @@
 }
 
 body {
-    background: #e5e5e5;
     font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    line-height: 18px;
 }
 
 #wrapper {
-    height: auto;
-    min-width: 100%;
+    width: 100%;
 }
+
 
 .container {
     width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
+
+header {
+    width: 100%;
+    padding-bottom: 1%;
+}
+.header__first {
+    background: #e5e5e5;
+}
+
 
 .menu {
     text-align: center;
+    padding: 1em;
+
 }
 
-.menu > li{
+.menu li {
     display: inline-block;
-    padding: 16px 15px;
+    padding: 0 1em;
 }
-.menu > li > a {
+
+.grey li a {
     color: #333333;
 }
 
-.container__logo {
-    width: 100%;
-    background: #fff;
-    padding: 0 20%;
+.black li a {
     font-size: 16px;
+    color: black;
 }
 
-.container__logo::after {
-    clear: both;
+.header__second {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 10vh;
+    padding: 2% 0;
+}
+
+.header__second > .container::after {
     content: "";
     display: block;
+    clear: both;
 }
 
-.logo__logo {
+img , h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-left: 2vh;
+}
+
+h1> a {
+    color: #F13C6E;
+    font-size: 36px;
+}
+
+.first {
     float: left;
 }
 
-.logo__text {
-    display: inline-block;
-    padding-top: 23px;
-    text-transform: uppercase;
-    color: #F13C6E;
-}
-
-.container__callback {
+.second {
     float: right;
-    padding-top: 20px;
+    font-size: 16px;
+    vertical-align: middle;
 }
-.container__callback > a {
-    margin: 0 10px;
-    display: inline-block;
+
+.second a {
     color: black;
 }
 
-.call_btn {
-    width: 170px;
-    padding-top: 10px ;
-    padding-bottom: 10px;
-    text-align: center;
-    border: 2px solid #F13C6E;
-    border-radius: 40px;
+.second > * {
+    float: left;
 }
 
+.phone{
+    float: left;
+    margin-top: 28px;
+}
+.btn {
+    margin-top: 18px;
+    margin-left: 45px;
+    border: 1px solid #F13C6E;
+    padding: 10px 30px;
+    border-radius: 35px;
+    width: 180px;
+}
 
-.container__nav__menu ul > li > a {
-    color: black;
+.main__section__first {
+    background: #E5E5E5;
+    min-height: 55vh;
+    background-image: url(../image/back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 604px;
 }
 
 .container__main {
-    background-image:url(../image/back.png);
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 604px;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
 }
+
 .main__content {
-    padding: 0 21%;
-    width: 100%;
-    font-size: 14px;
-    line-height: 30px;
+    width: 30%;
+    padding-top: 14%;
 }
 
 .main__content > h2 {
     font-size: 48px;
-    
-
+    padding-bottom: 10%;
 }
 
+.more__btn {
+    display: inline-block;
+    border:2px solid #fff;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 18px;
+    text-align: center;
+    width: 180px;
+    margin-top: 20px;
+}
+
+.main__section__second {
+    background: #E5E5E5;
+    padding-top: 80px;
+}
+
+.container__section__second {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.cards {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.cards::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.card {
+    float: right;
+    width: calc(100% / 4 - 40px);
+    background: #fff;
+    margin-left: 35px;
+    padding: 50px 0;
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+
+.card a {
+    display: inline-block;
+    border: 3px solid #F13C6E;
+    border-radius: 20px;
+    width: 150px;
+    color: #fff;
+    background: #F13C6E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
 
 
