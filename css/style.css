@@ -150,12 +150,12 @@ h1> a {
     margin-top: 20px;
 }
 
-.main__section__second {
+.main__section__second , .main__section__third{
     background: #E5E5E5;
     padding-top: 80px;
 }
 
-.container__section__second {
+.container__section__second, .container__section__third {
     width: 70%;
     margin: 0 auto;
 }
@@ -169,9 +169,12 @@ h3 {
 }
 
 .cards {
-    text-align: center;
+    /* text-align: center; */
     display: inline-block;
     width: 100%;
+}
+.cards > h3 {
+    text-align: left;
 }
 
 .cards::after {
@@ -181,13 +184,15 @@ h3 {
 }
 
 .card {
-    float: right;
-    width: calc(100% / 4 - 40px);
+    float: left;
+    width: 18%;
     background: #fff;
-    margin-left: 35px;
-    padding: 50px 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 50px 20px;
     margin-top: 80px;
-    margin-bottom: 160px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 
@@ -195,12 +200,68 @@ h3 {
     display: inline-block;
     border: 3px solid #F13C6E;
     border-radius: 20px;
-    width: 150px;
+    padding: 40%;
     color: #fff;
     background: #F13C6E;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.container__section__third::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.gifts {
+    width: 100%;
+    /* display: inline-block; */
+    text-align: center;
+    /* margin: 0 auto; */
+    float: left;
+}
+
+.gift__first , .gift__second {
+    background: #F13C6E;
+    /* display: inline-block;
+    padding: 20px; */
+/*     min-height: 40vh; */
+    width: 50%;
+    float: left;
+}
+
+.gift__text {
+    display: inline-block;
+    padding: 20px 30px;
+    vertical-align: middle;
+    text-align: left;
+    color: white;
+    width: 50%;
+}
+.gift__png {
+    display: inline-block;
+    padding: 24px 30px;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.gift__text>h4 {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+input[type=email] {
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 25px;
+    border: 0;
+    text-align: center;
+    
+}
+
+.store__map {
+    margin-top: 25px;
 }
 
 
