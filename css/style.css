@@ -81,6 +81,11 @@ header {
     padding: 20px 0;
 }
 
+.container__nav__menu {
+    border-top: 1px solid #E5E5E5;
+    padding-top: 20px;
+}
+
 img , h1 {
     display: inline-block;
     vertical-align: middle;
@@ -306,7 +311,7 @@ footer {
 footer  h4 {
     font-size: 16px;
     color: black;
-    margin: 0 0 50px;
+    margin: 60px 0 50px;
 }
 
 footer a {
@@ -376,4 +381,8 @@ footer li {
 
 .btn__black {
     border: 1px solid black;
+}
+
+footer > .container {
+    width: 100%;
 }
