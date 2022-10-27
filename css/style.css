@@ -26,10 +26,21 @@ body {
     overflow: hidden;
 }
 
+.min-height {
+    min-height: 80px;
+    display: inline-block;
+}
+
 .section {
     padding-top: 80px;
     width: 80%;
     margin: 0 auto;
+}
+
+.clear::after {
+    display: block;
+    content: "";
+    clear: both;
 }
 
 header {
@@ -65,12 +76,6 @@ header {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
-}
-
-.header__second > .container::after {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 img , h1 {
@@ -109,6 +114,7 @@ h1> a {
 .callback {
     display: inline-block;
 }
+
 .btn {
     border: 1px solid #F13C6E;
     padding: 10px 60px;
@@ -154,11 +160,7 @@ section{
     background: #E5E5E5;
 }
 
-h2 {
-    font-size: 24px;
-}
-
-h3 {
+h2,h3 {
     font-size: 24px;
 }
 
@@ -166,22 +168,10 @@ h4 {
     color: #333333;
 }
 
-.cards {
-    width: 100%;
-    
-}
-
 .container__section__buy > h3 {
     padding-bottom: 80px;
     padding-top: 40px;
 }
-
-.cards::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 .card {
     background: white;
     float: left;
@@ -207,12 +197,6 @@ h4 {
     padding-bottom: 5px;
     text-align: center;
     margin-top: 20px;
-}
-
-.container__section__third::after,.container__section__four::after {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 .gift__first {
@@ -270,7 +254,6 @@ input[type=email] {
 }
 
 .impuls {
-    width: 100%;
     display: inline-block;
     background: #fff;
 }
@@ -282,5 +265,68 @@ input[type=email] {
     margin: 30px 20px;
 }
 
+footer {
+    background: #E5E5E5;
+    padding-top: 80px;
+}
 
+footer  h4 {
+    font-size: 16px;
+    color: black;
+    margin: 0 0 50px;
+}
 
+footer a {
+    font-size: 12px;
+    color: #333333;
+
+}
+
+footer .container {
+    background: #fff;
+}
+
+.categories {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.category {
+    float: left;
+    width: calc(100% / 4);
+}
+
+footer li {
+    margin: 10px
+}
+
+.icons {
+    padding: 14px 0px;
+}
+
+.icons a {
+    margin-right: 25px;
+}
+
+.icons img {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+    color: #828282;
+}
+
+.about p:nth-child(1) {
+    float: left;
+    padding-left: 10%;
+}
+.about p:nth-child(2) {
+    float: right;
+    padding-right: 10%; ;
+}
