@@ -330,3 +330,7 @@ footer li {
     float: right;
     padding-right: 10%; ;
 }
+
+.btn__black {
+    border: 1px solid black;
+}
