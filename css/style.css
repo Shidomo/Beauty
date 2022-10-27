@@ -16,6 +16,7 @@ body {
 
 #wrapper {
     width: 100%;
+    overflow: hidden;
 }
 
 
@@ -25,19 +26,25 @@ body {
     overflow: hidden;
 }
 
+.section {
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     width: 100%;
     padding-bottom: 1%;
 }
 .header__first {
     background: #e5e5e5;
+    padding: 5px;
 }
 
 
 .menu {
     text-align: center;
     padding: 1em;
-
 }
 
 .menu li {
@@ -55,10 +62,9 @@ header {
 }
 
 .header__second {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-    min-height: 10vh;
-    padding: 2% 0;
+    padding: 20px 0;
 }
 
 .header__second > .container::after {
@@ -89,49 +95,45 @@ h1> a {
 .second {
     float: right;
     font-size: 16px;
+    text-align: right;
     vertical-align: middle;
+    padding: 21.5px 0;
 }
 
 .second a {
     color: black;
+    display: inline-block;
+    margin-right: 30px;
 }
 
-.second > * {
-    float: left;
-}
-
-.phone{
-    float: left;
-    margin-top: 28px;
+.callback {
+    display: inline-block;
 }
 .btn {
-    margin-top: 18px;
-    margin-left: 45px;
     border: 1px solid #F13C6E;
-    padding: 10px 30px;
+    padding: 10px 60px;
     border-radius: 35px;
-    width: 180px;
 }
 
 .main__section__first {
     background: #E5E5E5;
-    min-height: 55vh;
     background-image: url(../image/back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 604px;
 }
 
 .container__main {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     color: #fff;
+    text-align: left;
 }
 
 .main__content {
     width: 30%;
     padding-top: 14%;
+    padding-bottom: 14%; ;
 }
 
 .main__content > h2 {
@@ -143,21 +145,13 @@ h1> a {
     display: inline-block;
     border:2px solid #fff;
     color: #fff;
-    padding: 10px 10px;
+    padding: 10px 80px;
     border-radius: 18px;
-    text-align: center;
-    width: 180px;
     margin-top: 20px;
 }
 
-.main__section__second , .main__section__third{
+section{
     background: #E5E5E5;
-    padding-top: 80px;
-}
-
-.container__section__second, .container__section__third {
-    width: 70%;
-    margin: 0 auto;
 }
 
 h2 {
@@ -168,13 +162,18 @@ h3 {
     font-size: 24px;
 }
 
-.cards {
-    /* text-align: center; */
-    display: inline-block;
-    width: 100%;
+h4 {
+    color: #333333;
 }
-.cards > h3 {
-    text-align: left;
+
+.cards {
+    width: 100%;
+    
+}
+
+.container__section__buy > h3 {
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
 
 .cards::after {
@@ -184,84 +183,104 @@ h3 {
 }
 
 .card {
+    background: white;
     float: left;
-    width: 18%;
-    background: #fff;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding: 50px 20px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    width: calc(100% / 4 - 80px);
+    padding: 40px 10px;
+    margin: 40px;
     text-align: center;
+}
+
+.card > p > b {
+    font-size: 21px;
 }
 
 
 .card a {
     display: inline-block;
     border: 3px solid #F13C6E;
-    border-radius: 20px;
-    padding: 40%;
+    border-radius: 30px;
+    padding: 25%;
     color: #fff;
     background: #F13C6E;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+    margin-top: 20px;
 }
 
-.container__section__third::after {
+.container__section__third::after,.container__section__four::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.gifts {
-    width: 100%;
-    /* display: inline-block; */
-    text-align: center;
-    /* margin: 0 auto; */
+.gift__first {
+    background: #F13C6E;
     float: left;
+    width: 48%;
+    padding: 25px;
+    text-align: center;
 }
 
-.gift__first , .gift__second {
+.gift__second {
     background: #F13C6E;
-    /* display: inline-block;
-    padding: 20px; */
-/*     min-height: 40vh; */
-    width: 50%;
-    float: left;
+    float: right;
+    width: 48%;
+    padding: 25px;
+    text-align: center;
 }
 
 .gift__text {
     display: inline-block;
-    padding: 20px 30px;
-    vertical-align: middle;
     text-align: left;
     color: white;
-    width: 50%;
-}
-.gift__png {
-    display: inline-block;
-    padding: 24px 30px;
     vertical-align: middle;
-    width: 40%;
+    width: calc(100%/2 - 2%);
+    max-height: 230px;
+    min-height: 230px;
 }
 
+.gift__text > p{
+    width: 55%;
+    padding-bottom: 40px;
+}
+.gift__first img , .gift__second img{
+    width: calc(100/2 - 2%);
+    margin: 5% 0;
+    margin-left: 10%;
+}
 .gift__text>h4 {
-    padding-bottom: 20px;
-    font-size: 18px;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    font-size: 22px;
+    color: white;
 }
 
 input[type=email] {
-    padding: 10px;
+    padding: 14px;
     border-radius: 30px;
-    margin-top: 25px;
     border: 0;
-    text-align: center;
-    
+    text-align: center;   
 }
 
-.store__map {
-    margin-top: 25px;
+.more__btn {
+    margin: 0;
+    text-align: center;
 }
+
+.impuls {
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+}
+
+.impuls > a {
+    width: calc(100%/4 - 40px);
+    float: left;
+    text-align: center;
+    margin: 30px 20px;
+}
+
 
 
