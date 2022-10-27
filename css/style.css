@@ -192,8 +192,9 @@ h4 {
     text-align: center;
 }
 
-.card > p > b {
+.card >.card__body> p > b {
     font-size: 21px;
+    color: black;
 }
 
 .card a {
@@ -208,6 +209,12 @@ h4 {
     text-align: center;
     margin-top: 20px;
     transition: all .4s ease;
+}
+
+.card .card__body {
+    display: inline-block;
+    background: #fff;
+    border: 0;
 }
 
 .gift__first {

@@ -45,3 +45,7 @@ footer a:hover {
 .orange-fill:hover {
     fill: rgb(145, 14, 5);
 }
+
+.card .card__body:hover {
+    background: #fff;
+}
