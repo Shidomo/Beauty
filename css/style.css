@@ -215,6 +215,7 @@ h4 {
     display: inline-block;
     background: #fff;
     border: 0;
+    padding: 0;
 }
 
 .gift__first {
