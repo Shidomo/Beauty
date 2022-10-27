@@ -245,6 +245,13 @@ h4 {
     margin: 5% 0;
     margin-left: 10%;
 }
+
+.store__map {
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
 .gift__text>h4 {
     padding-bottom: 35px;
     padding-top: 30px;
