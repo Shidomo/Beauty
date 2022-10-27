@@ -29,6 +29,7 @@ body {
 .min-height {
     min-height: 80px;
     display: inline-block;
+    max-height: 80px;
 }
 
 .section {
@@ -65,11 +66,13 @@ header {
 
 .grey li a {
     color: #333333;
+    transition: all .2s ease;
 }
 
 .black li a {
     font-size: 16px;
     color: black;
+    transition: all .2s ease;
 }
 
 .header__second {
@@ -116,9 +119,16 @@ h1> a {
 }
 
 .btn {
-    border: 1px solid #F13C6E;
     padding: 10px 60px;
-    border-radius: 35px;
+    background: white;
+    border: 1px solid #F13C6E;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all .6s ease;
+}
+
+.tel {
+    transition: all .2s ease;
 }
 
 .main__section__first {
@@ -154,6 +164,7 @@ h1> a {
     padding: 10px 80px;
     border-radius: 18px;
     margin-top: 20px;
+    transition: all .6s ease;
 }
 
 section{
@@ -185,10 +196,9 @@ h4 {
     font-size: 21px;
 }
 
-
 .card a {
     display: inline-block;
-    border: 3px solid #F13C6E;
+    border: 1px solid #F13C6E;
     border-radius: 30px;
     padding: 25%;
     color: #fff;
@@ -197,6 +207,7 @@ h4 {
     padding-bottom: 5px;
     text-align: center;
     margin-top: 20px;
+    transition: all .4s ease;
 }
 
 .gift__first {
@@ -244,8 +255,10 @@ h4 {
 input[type=email] {
     padding: 14px;
     border-radius: 30px;
-    border: 0;
-    text-align: center;   
+    border:3px solid #F13C6E;
+    text-align: center;  
+    outline: none; 
+    transition: all .2s ease;
 }
 
 .more__btn {
@@ -279,7 +292,7 @@ footer  h4 {
 footer a {
     font-size: 12px;
     color: #333333;
-
+    transition: all .2s ease;
 }
 
 footer .container {
@@ -301,18 +314,28 @@ footer li {
     margin: 10px
 }
 
-.icons {
-    padding: 14px 0px;
-}
-
 .icons a {
-    margin-right: 25px;
+    float: left;
 }
 
-.icons img {
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 5px;
+.icons svg {
+    width: 50%;
+}
+
+.red-fill {
+    fill: red;
+    text-align: center;
+    transition: all .2s ease;
+}
+.blue-fill {
+    fill: rgb(90, 90, 167);
+    text-align: center;
+    transition: all .2s ease;
+}
+.orange-fill {
+    fill: rgb(255, 17, 0);
+    vertical-align: middle;
+    transition: all .2s ease;
 }
 
 .about {

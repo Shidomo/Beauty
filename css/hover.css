@@ -1,0 +1,47 @@
+.grey li a:hover {
+    color: #F13C6E;
+}
+
+.black li a:hover {
+    color: #F13C6E;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #fad8d8;
+    border: 1px solid #f5b4c5;
+}
+
+.tel:hover {
+    color: #F13C6E;
+}
+
+.more__btn:hover {
+    cursor: pointer;
+    /* background: #f5b4c5; */
+    background: #B54F6A;
+}
+
+.card a:hover {
+    background: #b54f6a;
+    background-color: #B54F6A;
+}
+input:focus {
+    border: 3px solid #B54F6A;
+}
+
+footer a:hover {
+    color: #F13C6E;
+}
+
+.red-fill:hover {
+    fill: rgb(116, 5, 5);
+}
+
+.blue-fill:hover {
+    fill: rgb(5, 5, 110);
+}
+
+.orange-fill:hover {
+    fill: rgb(145, 14, 5);
+}
