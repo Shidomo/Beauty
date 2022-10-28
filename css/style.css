@@ -296,13 +296,14 @@ input[type=email] {
     background: #fff;
 }
 
-.impuls > a {
-    width: calc(100%/4 - 40px);
+.impuls > li {
+    width: calc(100%/4);
     float: left;
     text-align: center;
-    margin: 30px 20px;
+    padding: 30px;
+    border: 1px dotted #E5E5E5;
 }
-
+         
 footer {
     background: #E5E5E5;
     padding-top: 80px;
