@@ -334,7 +334,7 @@ footer .container {
 .category {
     float: left;
     width: calc(25% - 80px);
-    margin: 0 40px;
+    margin: 20px 40px;
 }
 
 footer li {
