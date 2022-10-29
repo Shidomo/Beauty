@@ -53,3 +53,7 @@ footer a:hover {
 .impuls li:hover {
     border: 1px dotted #F13C6E;
 }
+
+input[type="email"]:hover {
+    border: 3px solid #f5b4c5;
+}
