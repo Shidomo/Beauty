@@ -326,18 +326,19 @@ footer .container {
 }
 
 .categories {
-    text-align: center;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .category {
     float: left;
-    width: calc(100% / 4);
+    width: calc(25% - 80px);
+    margin: 0 40px;
 }
 
 footer li {
-    margin: 10px
+    margin: 10px;
 }
 
 .icons a {
@@ -372,18 +373,12 @@ footer li {
 }
 
 .about p:nth-child(1) {
-    float: left;
-    padding-left: 10%;
+    float: left;;
 }
 .about p:nth-child(2) {
     float: right;
-    padding-right: 10%; ;
 }
 
 .btn__black {
     border: 1px solid black;
-}
-
-footer > .container {
-    width: 100%;
 }
