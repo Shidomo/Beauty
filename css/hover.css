@@ -49,3 +49,7 @@ footer a:hover {
 .card .card__body:hover {
     background: #fff;
 }
+
+.impuls li:hover {
+    border: 1px dotted #F13C6E;
+}
