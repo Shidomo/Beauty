@@ -382,3 +382,7 @@ footer li {
 .btn__black {
     border: 1px solid black;
 }
+
+.border__top {
+    border-top: 1px solid #E5E5E5;
+}
