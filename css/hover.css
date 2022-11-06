@@ -30,7 +30,7 @@ a{
 
 .tel:hover {
     color: #F13C6E;
-    animation: footer_menu 1s both;
+    animation: scale 1s both;
 }
 
 .more__btn:hover {
