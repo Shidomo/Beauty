@@ -46,11 +46,9 @@ body {
 
 header {
     width: 100%;
-    padding-bottom: 1%;
 }
 .header__first {
     background: #e5e5e5;
-    padding: 5px;
 }
 
 
@@ -83,7 +81,6 @@ header {
 
 .container__nav__menu {
     border-top: 1px solid #E5E5E5;
-    padding-top: 20px;
 }
 
 img , h1 {
@@ -190,15 +187,15 @@ h4 {
 }
 
 .cards {
-    margin: -40px;
+    margin: -15px;
 }
 
 .card {
     background: white;
     float: left;
-    width: calc(100% / 4 - 80px);
-    padding: 40px 10px;
-    margin: 40px;
+    width: calc(100% / 4 - 30px);
+    padding: 40px 30px;
+    margin: 15px;
     text-align: center;
 }
 
@@ -234,6 +231,9 @@ h4 {
     width: 48%;
     padding: 25px;
     text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .gift__second {
@@ -378,10 +378,6 @@ footer li {
 }
 .about p:nth-child(2) {
     float: right;
-}
-
-.btn__black {
-    border: 1px solid black;
 }
 
 .border__top {
