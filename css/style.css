@@ -126,7 +126,7 @@ h1> a {
     border: 1px solid #F13C6E;
     border-radius: 30px;
     font-weight: bold;
-    transition: all .6s ease;
+    transition: all 1s ease;
 }
 
 .tel {

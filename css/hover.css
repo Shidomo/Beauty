@@ -1,30 +1,53 @@
-.grey li a:hover {
+.grey li a:hover, .black li a:hover {
+    animation-name: scale;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
     color: #F13C6E;
 }
 
-.black li a:hover {
-    color: #F13C6E;
+a{
+    display: inline-block;
 }
 
 .btn:hover {
     cursor: pointer;
     background: #fad8d8;
     border: 1px solid #f5b4c5;
+    animation: bounce 1s both;
 }
+
+/* .btn:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 42px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 5px;
+	transition: all 2s ease;
+} */
 
 .tel:hover {
     color: #F13C6E;
+    animation: footer_menu 1s both;
 }
 
 .more__btn:hover {
     cursor: pointer;
     /* background: #f5b4c5; */
     background: #B54F6A;
+    animation: bounce 1s both;
+}
+
+.card:hover {
+    animation: up .7s both;
 }
 
 .card a:hover {
     background: #b54f6a;
     background-color: #B54F6A;
+    animation: scale 1s both;
 }
 input:focus {
     border: 3px solid #B54F6A;
@@ -36,14 +59,17 @@ footer a:hover {
 
 .red-fill:hover {
     fill: rgb(116, 5, 5);
+    animation: footer_menu 1s both;
 }
 
 .blue-fill:hover {
     fill: rgb(5, 5, 110);
+    animation: footer_menu 1s both;
 }
 
 .orange-fill:hover {
     fill: rgb(145, 14, 5);
+    animation: footer_menu 1s both;
 }
 
 .card .card__body:hover {
@@ -54,6 +80,23 @@ footer a:hover {
     border: 1px dotted #F13C6E;
 }
 
+.impuls a:hover {
+    animation: footer_menu 1s both;
+}
+
 input[type="email"]:hover {
     border: 3px solid #f5b4c5;
 }
+
+img[src="image/logo.png"]:hover , .gift__first:hover img[src="image/mail.svg"] , .gift__second:hover img[src="image/car.svg"] {
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+footer li a:hover {
+    animation: footer_menu 1s both;
+}
+
+
+
