@@ -231,9 +231,6 @@ h4 {
     width: 48%;
     padding: 25px;
     text-align: center;
-
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .gift__second {
